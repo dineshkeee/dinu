@@ -2,16 +2,14 @@ package set1;
 import java.util.*;
 public class BiggestNumber {
 		public static void main(String args[]){
-			int a;
-			System.out.println("Enter the length of Array");
+			System.out.println("Enter the number");
 			Scanner in=new Scanner(System.in);
-			a=in.nextInt();
-			int arr[]=new int[a];
-			System.out.println("Enter the array elements");
-			for(int i=0;i<a;i++){
-				arr[i]=in.nextInt();
+			String a[]=in.nextLine().split(" ");
+			int arr[]=new int[a.length];
+		for(int i=0;i<a.length;i++){
+				arr[i]=Integer.parseInt(String.valueOf(a[i]));
 			}
-			Arrays.sort(arr);
+		Arrays.sort(arr);
 			System.out.println(arr[arr.length-1]);
-		}
+		}	
 }
