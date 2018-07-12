@@ -2,7 +2,7 @@ package setrep;
 import java.util.*;
 public class reverse {
 	public static void main(String args[]){
-		int a,i,j;
+		int a,i;
 		String b="";
 		System.out.println("Enter the Array Length");
 		Scanner in=new Scanner(System.in);
