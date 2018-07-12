@@ -12,7 +12,7 @@ public class Swap {
 			s=l/2;
         b=a.substring(0,s);
         s1=new StringBuffer(b).reverse().toString();
-        c=a.substring((l-s)+1,l);
+        c=a.substring((l-s),l);
        s2=new StringBuffer(c).reverse().toString();
        	}
 		else{
